@@ -9,6 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 *Angular CLI version 11.2.8
 
 ## Setup
+### `$ sudo apt install git`
 ### `$ sudo apt install nodejs`
 ### `$ sudo apt install npm`
 ### `$ npm install -g @angular/cli`
