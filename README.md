@@ -9,11 +9,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 *Angular CLI version 11.2.8
 
 ## Setup
-### `$ apt install nodejs`
-### `$ apt install npm`
+### `$ sudo apt install nodejs`
+### `$ sudo apt install npm`
 ### `$ npm install -g @angular/cli`
 ### `$ git clone https://github.com/mixzafeir/Movie-Viewer.git`
 ### `$ cd [PROJECT_NAME]`.
+### `$ npm update`
+### `$ ng update`
 
 ## Development server
 
