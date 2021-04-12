@@ -1,0 +1,12 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <span class="title" src="selectName()">{{title}}</span>
+    <mat-icon class="example-full-width search-form">
+      search
+    </mat-icon>
+    <mat-form-field class="example-full-width search-form">
+      <input matInput (change)="somethingChanged($event)" placeholder="Search for a Movie">
+    </mat-form-field>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-divider></mat-divider>

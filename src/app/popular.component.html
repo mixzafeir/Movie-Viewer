@@ -1,0 +1,8 @@
+<mat-selection-list [multiple]="false">
+    <mat-list-option *ngFor="let movie of movies" (click)="selectTitle(movie)" [value]="movie">
+        {{movie.title}}
+        <mat-divider></mat-divider>
+    </mat-list-option>
+</mat-selection-list>
+<mat-paginator [pageIndex]="curPage" [length]="length" [pageSize]="pageSize" (page)="pageEvent = $event">
+</mat-paginator>

@@ -1,0 +1,32 @@
+<mat-card class="movie-card">
+    <mat-card-content>
+        <div fxLayout="row">
+            <div fxFlex="30">
+                <img width="93%" src="{{selectedImage}}">
+            </div>
+            <div fxFlex="70">
+                <p style="color:rgb(0, 0, 0);font-size:20px;"><b>Title:</b></p>
+                <p style="color:rgb(0, 0, 0);font-size:25px;">
+                    <b>{{details.title}}</b>
+                </p>
+                <br>
+                <p style="color:rgb(0, 0, 0);font-size:20px;"><b>Overview:</b></p>
+                <p style="color:rgb(0, 0, 0);font-size:18px;">
+                    {{details.overview}}
+                </p>
+                <br>
+                <br>
+                <p style="color:rgb(0, 0, 0);font-size:20px;"><b>Categories:</b></p>
+                <mat-chip-list class="example-chip">
+                    <mat-chip class="example-box" *ngFor="let genre of details.genre_ids">
+                        {{getGenreName(genre)}}
+                    </mat-chip>
+                </mat-chip-list>
+                <br>
+                <br>
+                <br>
+                <star [rating]="details.vote_average" [votes]="details.vote_count"></star>
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>
