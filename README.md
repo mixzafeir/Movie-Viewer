@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 *Ubuntu 18.04
 *Node.js version 12.8.1
 *npm version 6.10.2
-*Angular version 11.2.7
+*Angular CLI version 11.2.8
 
 ## Setup
 ### `$ apt install nodejs`
