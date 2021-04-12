@@ -11,9 +11,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Setup
 # `$ apt install nodejs`
 # `$ apt install npm`
-`$ npm install -g @angular/cli`
-`$ git clone https://github.com/mixzafeir/Movie-Viewer.git`
-`$ cd [PROJECT_NAME]`.
+# `$ npm install -g @angular/cli`
+# `$ git clone https://github.com/mixzafeir/Movie-Viewer.git`
+# `$ cd [PROJECT_NAME]`.
 
 ## Development server
 
